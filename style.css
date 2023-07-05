@@ -169,7 +169,7 @@ Section article.txt2 {
   grid-row-start: 1;
   grid-row-end: 2;
 
-  width: 26rem;
+  width: 24rem;
 }
 
 .txt2 cite {
@@ -204,7 +204,7 @@ Section article.txt2 {
   grid-template-columns: auto;
   gap: 2rem;
   list-style: none;
-  margin-top: 0.2rem;
+  margin: .8rem;
 
   display: flex;
   flex-direction: column;
@@ -255,9 +255,14 @@ Section article.txt2 {
   padding: 4.8rem;
   gap: 2.8rem;
 
+  border: none;
+  border-radius: 0;
+ 
+  width: 100vw;
 
-  border: 2px solid var(--my-color-2);
-  border-radius: 12px;
+  background-color: var(--my-color-2);
+  color: var(--my-color-1);
+  margin: 0;
 }
 
 .ctts {
@@ -265,7 +270,11 @@ Section article.txt2 {
   list-style: none;
   padding: 20px;
 
+  border: 2px solid #c2bfbf;
+  border-radius: 20px;
+
   gap: 0.8rem;
+  
 }
 
 .contatos p {
@@ -276,6 +285,8 @@ Section article.txt2 {
 
 .contatos .footer p {
   font-size: 0.9em !important;
+  border-top: 1px solid;
+  padding-top: .4rem;
 }
 
 /* Responsividade para Tablets*/
@@ -383,6 +394,8 @@ Section article.txt2 {
   .pjts li img {
     width: 36rem;
   }
+
+  /*Contatos*/
   .contatos {
     border: none;
     border-radius: 0;
@@ -521,10 +534,6 @@ Section article.txt2 {
   }
 
   .fa {
-    background-color: #acafb0;
-    text-shadow: 2px 4px 6px rgba(161, 165, 165, 0.607);
-    padding: 0.2rem;
-    border-radius: 12px;
     transition: all 0.4s;
   }
 
