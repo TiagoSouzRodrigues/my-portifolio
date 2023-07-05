@@ -199,12 +199,13 @@ Section article.txt2 {
   padding: 2.8rem 0 1rem;
   margin-top: 1.8rem;
 }
+
 .pjts {
   display: grid;
   grid-template-columns: auto;
   gap: 2rem;
   list-style: none;
-  margin: .8rem;
+  margin: 0.8rem;
 
   display: flex;
   flex-direction: column;
@@ -257,7 +258,7 @@ Section article.txt2 {
 
   border: none;
   border-radius: 0;
- 
+
   width: 100vw;
 
   background-color: var(--my-color-2);
@@ -274,7 +275,36 @@ Section article.txt2 {
   border-radius: 20px;
 
   gap: 0.8rem;
-  
+}
+
+.ctts li {
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 .contatos p {
@@ -286,7 +316,7 @@ Section article.txt2 {
 .contatos .footer p {
   font-size: 0.9em !important;
   border-top: 1px solid;
-  padding-top: .4rem;
+  padding-top: 0.4rem;
 }
 
 /* Responsividade para Tablets*/
@@ -477,7 +507,6 @@ Section article.txt2 {
     left: 0%;
 
     width: 20rem;
-    
   }
 
   .txt2 cite {
@@ -496,10 +525,10 @@ Section article.txt2 {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 2.7rem;
     list-style: none;
-    margin:1.8rem;
+    margin: 1.8rem;
   }
 
-  .portifolio  h1{
+  .portifolio h1 {
     margin-top: 3.8rem;
 
     font-size: 2.8rem;
@@ -525,7 +554,7 @@ Section article.txt2 {
   .contatos {
     border: none;
     border-radius: 0;
-   
+
     width: 100vw;
 
     background-color: var(--my-color-2);
@@ -543,7 +572,7 @@ Section article.txt2 {
   }
   .contatos .footer p {
     border-top: 1px solid;
-    padding-top: .4rem;
+    padding-top: 0.4rem;
     font-size: 0.8em !important ;
   }
 }
