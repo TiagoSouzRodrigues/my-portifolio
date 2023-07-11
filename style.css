@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -201,9 +201,9 @@ Section article.txt2 {
 .portifolio h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 1.5rem;
-  padding: 2.8rem 0 1rem;
-  margin-top: 1.8rem;
+  font-size: 1.8rem;
+  padding: .8rem 0 1rem;
+  margin-top: .6rem;
 }
 
 .pjts {
@@ -222,8 +222,9 @@ Section article.txt2 {
   justify-content: center;
   align-items: center;
 
-  width: 16rem;
-  padding: 2.6rem;
+  width: 18em;
+  padding: 4.8rem ;
+ 
 
   background-color: var(--my-color-2);
   border: 2px solid var(--my-color-3);
@@ -246,7 +247,7 @@ Section article.txt2 {
 }
 
 .pjts li img {
-  width: 20rem;
+  width: 14em;
 }
 
 .pjts li p {
