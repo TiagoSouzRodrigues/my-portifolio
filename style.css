@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -96,7 +96,7 @@ main {
 
 /*Ínicio*/
 .txt {
-  padding: 6rem;
+  padding: 4rem;
   text-align: center;
 }
 .txt h2 {
@@ -169,7 +169,9 @@ Section article.txt2 {
   grid-row-start: 1;
   grid-row-end: 2;
 
-  width: 20rem;
+  width: 80%;
+  margin-left: 40px;
+  
 }
 
 .txt2 cite {
@@ -226,15 +228,17 @@ Section article.txt2 {
   text-align: center;
 }
 
-.pjts li a {
-  color: var(--my-color-1);
-  text-decoration: underline;
+.pjts li a { 
+  color: #acafb0;
   font-weight: 600;
   font-size: 1.8rem;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .pjts li a:hover {
-  color: #acafb0;
+ color: var(--my-color-1);
+  text-decoration: underline;
 }
 
 .pjts li img {
@@ -269,48 +273,64 @@ Section article.txt2 {
 .ctts {
   display: flex;
   list-style: none;
-  padding: 20px;
+  padding: 10px;
+  margin-top: -20px;
 
-  border: 2px solid #c2bfbf;
-  border-radius: 20px;
+  border-top: 2px solid #c2bfbf;
+  border-radius: 0px;
 
   gap: 0.8rem;
+  
 }
 
-.ctts li {
-  animation: myAnim 2s ease 0s infinite normal forwards;
+
+.fa {
+  transition: all 0.4s;
 }
 
-@keyframes myAnim {
-  0% {
-    transform: translate(0);
-  }
+.ctts:has(li .fa:hover) li .fa:not(:hover) {
+  scale: 0.9;
+  opacity: 0.7;
+}
 
-  20% {
-    transform: translate(-2px, 2px);
-  }
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
-  40% {
-    transform: translate(-2px, -2px);
-  }
+  border: 1px solid #c2bfbf;
+  border-radius: 20px;
+  padding: 18px;
+  margin-top: -20px;
+}
 
-  60% {
-    transform: translate(2px, 2px);
-  }
+form > input{
+  width: 80%;
+  outline: none;
+  height: 22px;
+  padding: 6px;
+}
 
-  80% {
-    transform: translate(2px, -2px);
-  }
+form textarea{
+  outline: none;
+  padding: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
 
-  100% {
-    transform: translate(0);
-  }
+form button{
+  background-color: #a7c0cd;
+  border: none;
+  color: #445964;
+  border-radius: 0;
 }
 
 .contatos p {
   text-align: center;
 
   font-size: 1.6rem;
+  padding: 0 10px 0 10px;
+  margin-top: -20px;
 }
 
 .contatos .footer p {
@@ -400,8 +420,8 @@ Section article.txt2 {
   /* Sobre */
   .txt2 img {
     max-width: 60%;
-    position: relative;
-    left: 24%;
+    margin-left: 140px;
+    
   }
   .txt2 {
     display: flex;
@@ -431,10 +451,41 @@ Section article.txt2 {
     border-radius: 0;
     border-top: 2px solid;
     width: 100vw;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "t t"
+                          "sm fm"
+                          "ft ft";
   }
 
-  .contatos .footer p {
+  .contatos p{
+    grid-area: t;
+  }
+
+  .ctts{
+    grid-area: sm;
+  }
+  
+  
+  .fa {
+    transition: all 0.4s;
+  }
+
+  .ctts:has(li .fa:hover) li .fa:not(:hover) {
+    scale: 0.9;
+    opacity: 0.7;
+  }
+
+  .contatos form{
+    grid-area: fm;
+    height: 80%;
+  }
+
+   .footer  {
     font-size: 0.8em !important ;
+    grid-area: ft;
+    
   }
 }
 /*Responsividade para Desktops*/
@@ -503,10 +554,9 @@ Section article.txt2 {
 
   .txt2 img {
     margin-top: 2rem;
-    position: relative;
-    left: 0%;
-
-    width: 20rem;
+    
+    width: 20%;
+    margin-left: -16px;
   }
 
   .txt2 cite {
