@@ -133,6 +133,7 @@ button {
   width: 8rem;
 
   border-radius: 16px;
+  border:none;
 
   background: var(--my-color-2);
 }
