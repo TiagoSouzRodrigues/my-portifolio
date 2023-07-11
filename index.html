@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   <link rel="shortcut icon" href="imgs/logo-tg.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/logo-tg.svg" type="image/x-icon" />
 
     <title>Tiago Rodrigues</title>
   </head>
@@ -137,7 +137,7 @@
           <li>
             <p>
               <a
-                href=" https://tiagosouzrodrigues.github.io/mario-jump-game-2022/"
+                href="https://codepen.io/tiagorodsouza/full/zYmYOPo"
                 target="_blank"
                 ><img
                   src="portifolio/mario-bros-jump.png"
@@ -208,12 +208,39 @@
           </li>
         </ul>
       </section>
-      <section class="contatos" id="contatos" >
-        <p data-aos="fade-right">Sinta-se à vontade para entrar em contato comigo</p>
-        <ul class="ctts" data-aos="fade-right">
+      <section class="contatos" id="contatos">
+        <p data-aos="fade-right">
+          Sinta-se à vontade para entrar em contato comigo
+        </p>
+        <form data-aos="fade-left"
+          action="https://formsubmit.co/rodriguessouzatg@gmail.com"
+          method="POST" required
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/submit.html"
+          />
+          <input type="hidden" name="_autoresponse" value="Recebemos seu email! Obrigado pelo contato, em breve retornaremos🫶😁">
+          
+          <input type="hidden" name="_captcha" value="false">
+
+          <label for="Nome">Nome:</label>
+          <input type="text" name="name" id="" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          
+          <label for="message">Deixe aqui sua mensagem:</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+        
+        <ul class="ctts" data-aos="fade-out">
           <li>
             <a href="https://github.com/TiagoSouzRodrigues" target="_blank">
-              <i class="fa fa-github fa-3x" style="color: #d3d3d3;"></i>
+              <i class="fa fa-github fa-3x" style="color: #d3d3d3"></i>
             </a>
           </li>
           <li>
@@ -221,30 +248,28 @@
               href="https://www.instagram.com/tiagorodrigues_souza/"
               target="_blank"
             >
-              <i class="fa fa-instagram fa-3x" style="color: #d3d3d3;"></i>
+              <i class="fa fa-instagram fa-3x" style="color: #d3d3d3"></i>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/tiagorodsouz/" target="_blank">
-              <i class="fa fa-linkedin fa-3x" style="color: #d3d3d3;"></i>
+              <i class="fa fa-linkedin fa-3x" style="color: #d3d3d3"></i>
             </a>
           </li>
           <li>
             <a href="https://wa.me/qr/IRCM4MUP5HOUC1" target="_blank">
-              <i class="fa fa-whatsapp fa-3x" style="color: #d3d3d3;"></i>
+              <i class="fa fa-whatsapp fa-3x" style="color: #d3d3d3"></i>
             </a>
           </li>
           <li>
             <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-              <i class="fa fa-inbox fa-3x" style="color: #d3d3d3;"></i>
+              <i class="fa fa-inbox fa-3x" style="color: #d3d3d3"></i>
             </a>
           </li>
         </ul>
 
-        <div class="footer" >
-          <p>
-            Desenvolvido por <strong>Tiago Rodrigues</strong> - 2023	&copy;
-          </p>
+        <div class="footer">
+          <p>Desenvolvido por <strong>Tiago Rodrigues</strong> - 2023 &copy;</p>
         </div>
       </section>
     </main>
