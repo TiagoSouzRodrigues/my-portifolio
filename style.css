@@ -97,7 +97,6 @@ main {
 /*Ínicio*/
 .txt {
   padding: 4rem;
-  text-align: center;
 }
 .txt h2 {
   font-weight: 900;
@@ -107,6 +106,8 @@ main {
 .txt p {
   font-size: 25px;
   font-weight: 100;
+
+  text-align: justify;
 
   border-bottom: 1px solid var(--my-color-2);
 
@@ -133,7 +134,6 @@ button {
   width: 8rem;
 
   border-radius: 16px;
-  border:none;
 
   background: var(--my-color-2);
 }
@@ -162,8 +162,11 @@ Section article.txt2 {
   padding: 10px;
 
   max-width: 80vw;
+ 
 
   margin-top: 4rem;
+
+ 
 }
 
 .txt2 img {
@@ -191,7 +194,7 @@ Section article.txt2 {
   font-weight: 100;
   font-size: 1.5rem;
   border-bottom: 1px solid var(--my-color-2);
-  padding-bottom: 32px;
+  
 }
 
 /* Portifólio */
@@ -362,6 +365,7 @@ form button{
     display: flex;
     justify-content: end;
     background: none;
+    
   }
 
   header nav ul {
@@ -393,6 +397,8 @@ form button{
   .txt p {
     font-size: 30px;
     font-weight: 100;
+
+    text-align: justify;
 
     border-bottom: 1px solid var(--my-color-2);
 
@@ -548,7 +554,7 @@ form button{
 
     max-width: 180vw;
 
-    padding: 120px;
+    
 
     padding-top: 0;
   }
@@ -565,8 +571,13 @@ form button{
   }
 
   .txt2 p {
-    font-size: 1.2rem;
-    margin-top: 0;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    padding: 10px 12.2em 20px 12.2em;
+    line-height: 140%;
+    text-indent: 10%;
+    text-align: justify;
+
   }
 
   /* Portifólio */
