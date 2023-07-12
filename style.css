@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Kanit:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -91,12 +91,12 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+ 
 }
 
 /*Ínicio*/
 .txt {
-  padding: 4rem;
+  padding: 5rem;
   text-align: center;
   
 }
