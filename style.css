@@ -142,6 +142,7 @@ button a {
   text-decoration: none;
   color: var(--my-color-3);
   font-size: 1.6rem;
+  border: none;
 }
 
 button:hover {
