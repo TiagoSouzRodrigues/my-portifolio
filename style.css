@@ -86,6 +86,43 @@ header nav a:hover {
   color: #e4dfdfba;
 }
 
+.dark-mode{
+  position: fixed;
+  right:40px;
+  top: 20px;
+  width: 40px;
+  height: 20px;
+  background: #445964;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.toggle{
+  width: 18px;
+  height: 16px;
+  border-radius: 20px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  transition: all 0.4s ease-in-out;
+}
+
+.dark-mode .toggle.active{
+  left: 20px;
+}
+
+.toggle span{
+  position: relative;
+  right: 2px;
+  bottom: 3.7px;
+}
+
+span.lua{
+  display: none;
+
+}
+
 main {
   display: flex;
   align-items: center;
