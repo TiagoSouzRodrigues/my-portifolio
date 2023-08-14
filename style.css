@@ -21,7 +21,10 @@ body {
 
   scroll-behavior: smooth;
   overflow-x: hidden;
-  transition: all .6s ease-in-out;
+ 
+}
+body{
+ transition: all .6s ease-in-out;
 }
 
 /* Cabeçalho */
