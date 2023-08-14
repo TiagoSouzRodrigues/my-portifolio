@@ -92,14 +92,14 @@ header nav a:hover {
 
 .dark-mode{
   position: fixed;
-  right:40px;
-  top: 20px;
+  right:20px;
+  top: 30px;
   width: 40px;
   height: 20px;
-  background: #445964;
+  background: #78919f;
   border-radius: 20px;
   cursor: pointer;
-  
+  z-index: 3;
 }
 
 .toggle{
@@ -421,6 +421,27 @@ form button{
   header nav li a:hover {
     color: #768e9b;
   }
+  .dark-mode{
+  position: fixed;
+  right:10px;
+  top: 80px;
+  width: 40px;
+  height: 20px;
+  z-index: 2;
+  background: #7e8285;
+  border-radius: 20px;
+  cursor: pointer; 
+}
+
+.toggle{ 
+  width: 18px;
+  height: 16px;
+  border-radius: 20px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  transition: all 0.4s ease-in-out;
+}
 
   /* ÍNICIO */
   .txt {
