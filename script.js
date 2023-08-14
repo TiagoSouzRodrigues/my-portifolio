@@ -8,6 +8,7 @@ let toggle = document.querySelector(".toggle")
 let body = document.querySelector("body")
 let header = document.querySelector("header>h1")
 let par = document.querySelector("p")
+let txtp = document.querySelector(".welcome")
 let btn1 = document.querySelector("button")
 let cite = document.querySelector("cite")
 let par2 = document.querySelector(".txt2>p")
@@ -26,6 +27,7 @@ function activeDarkMode(){
 
     par.style.color = "#d3d3d3"
     par2.style.color = "#d3d3d3"
+    txtp.style.color = "#d3d3d3"
     h1.style.color = "#e4dfdfba"
     btn1.style.backgroundColor ="#d3d3d3"
     nameh1.style.color = "#445964"
@@ -42,6 +44,7 @@ function activeDarkMode(){
   } else{ 
     par.style.color = "#445964"
     par2.style.color = "#445964"
+    txtp.style.color = "#445964"
     h1.style.color = "#445964"
     btn1.style.backgroundColor ="#445964"
     nameh1.style.color = "#445964"
