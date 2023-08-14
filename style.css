@@ -93,7 +93,7 @@ header nav a:hover {
 .dark-mode{
   position: fixed;
   right:20px;
-  top: 30px;
+  top: 80px;
   width: 40px;
   height: 20px;
   background: #78919f;
