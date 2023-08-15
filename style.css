@@ -120,6 +120,7 @@ header nav a:hover {
   position: relative;
   right: 2px;
   bottom: 3.7px;
+ padding:2px;
 }
 
 span.lua{
