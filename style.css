@@ -107,7 +107,7 @@ header nav a:hover {
   height: 16px;
   border-radius: 20px;
   position: relative;
-  top: 3px;
+  top: 2.5px;
   left: 2px;
   transition: all 0.4s ease-in-out;
 }
@@ -119,13 +119,11 @@ header nav a:hover {
 .toggle span{
   position: relative;
   right: 2px;
-  bottom: 3.5px;
- padding:2px;
+  bottom: 3.7px;
 }
 
 span.lua{
   display: none;
-
 }
 
 main {
