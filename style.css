@@ -103,13 +103,15 @@ header nav a:hover {
 }
 
 .toggle{
-  width: 18px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border-radius: 20px;
+  border: 1px solid #78919f;
   position: relative;
-  top: 2.2px;
-  left: 2px;
+  top: -1.5px;
+  left: -1px;
   transition: all 0.4s ease-in-out;
+  background-color: aliceblue;
 }
 
 .dark-mode .toggle.active{
@@ -121,11 +123,6 @@ header nav a:hover {
   right: 2px;
   bottom: 3.7px;
 }
-
-span.lua{
-  display: none;
-}
-
 main {
   display: flex;
   align-items: center;
@@ -433,12 +430,13 @@ form button{
 }
 
 .toggle{ 
-  width: 18px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border-radius: 20px;
+  border: 1px solid #78919f;
   position: relative;
-  top: 2px;
-  left: 2px;
+  top: -1.5px;
+  left: -1px;
   transition: all 0.4s ease-in-out;
 }
 
